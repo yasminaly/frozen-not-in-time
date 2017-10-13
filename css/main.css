@@ -1,0 +1,41 @@
+html {
+  font: Fredoka One;
+}
+body {
+  background-image: repeating-linear-gradient(90deg, #b3fbff,#b3fbff 50% )
+}
+
+.cone {
+  bottom: calc(50% - 325px);
+  right: calc(50% - 450px);
+  position: absolute;
+
+}
+
+.mint-chip {
+  bottom: calc(50% - 180px);
+  right: calc(50% - 450px);
+  position: absolute;
+
+}
+
+.chocolate-chip{
+  bottom: calc(50% - 50px);
+  right: calc(50% - 450px);
+  position: absolute;
+
+}
+
+.vanilla-fudge{
+  bottom: calc(50% - -40px);
+  right: calc(50% - 450px);
+  position: absolute;
+
+}
+
+.cherry{
+  bottom: calc(50% - -150px);
+  right: calc(50% - 450px);
+  position: absolute;
+
+}
