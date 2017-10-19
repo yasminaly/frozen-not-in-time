@@ -1,15 +1,21 @@
 html {
-  font: Fredoka One;
+  font-family: "Fredoka One";
+
 }
+
 body {
-  background-image: repeating-linear-gradient(90deg, #b3fbff,#b3fbff 50% )
+    background-image: repeating-linear-gradient(45deg, #b3fbff,#b3fbff 10px, #d4fdff 10px, #d4fdff 20px);
+
+}
+
+.ice-cream-cone {
+
 }
 
 .cone {
   bottom: calc(50% - 325px);
   right: calc(50% - 450px);
   position: absolute;
-
 }
 
 .mint-chip {
@@ -19,23 +25,47 @@ body {
 
 }
 
-.chocolate-chip{
+.chocolate-chip {
   bottom: calc(50% - 50px);
   right: calc(50% - 450px);
   position: absolute;
 
 }
 
-.vanilla-fudge{
+.vanilla-fudge {
   bottom: calc(50% - -40px);
   right: calc(50% - 450px);
   position: absolute;
 
 }
 
-.cherry{
+.cherry {
   bottom: calc(50% - -150px);
   right: calc(50% - 450px);
   position: absolute;
 
+}
+
+.btn {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #990073;
+  color: #990073;
+  padding-left: 16em;
+}
+
+h1 {
+  color: #990073;
+  font-size: 5rem;
+  padding-left: 2.9em;
+  padding-top: 2em;
+  transform: rotate(-10deg);
+}
+
+h2 {
+  color: #990073;
+  font-size: 1.5rem;
+  padding-left: 11em;
+  padding-top: .5em;
+  transform: rotate(-4deg);
 }
