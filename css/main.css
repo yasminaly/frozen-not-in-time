@@ -1,10 +1,10 @@
 html {
-  font-family: "Fredoka One, sans-serif"
+  font-family: "Fredoka One", sans-serif;
 
 }
 
 body {
-  background-image: repeating-linear-gradient(-45deg, #b3fbff,#c9fcff 10px, #c9fcff 10px, #d4fdff 20px);
+  background-image: repeating-linear-gradient(-45deg, #b3fbff, #c9fcff 10px, #c9fcff 10px, #d4fdff 20px);
 
 }
 
@@ -83,7 +83,7 @@ h2 {
   }
 
   to {
-    transform: translate(0,0);
+    transform: translate(0, 0);
   }
 
 }
@@ -97,32 +97,32 @@ h2 {
 
   from {
     transform: translate(0, -500px);
-}
+  }
 
   to {
-    transform: translate(0,0);
-}
+    transform: translate(0, 0);
+  }
 
 }
 
 .chocolate-chip {
   animation: drop 3s linear;
 
-}
+  }
 
 @keyframes drop {
 
   from {
     transform: translate(0, -500px);
-}
+  }
 
   to {
-    transform: translate(0,0);
+    transform: translate(0, 0);
 }
 
 }
 
-.vanilla-fudge{
+.vanilla-fudge {
   animation: drop 4s linear;
 
 }
@@ -131,11 +131,11 @@ h2 {
 
   from {
     transform: translate(0, -500px);
-}
+  }
 
   to {
-    transform: translate(0,0);
-}
+    transform: translate(0, 0);
+  }
 
 }
 
@@ -148,10 +148,10 @@ h2 {
 
   from {
     transform: translate(0, -500px);
-}
+  }
 
   to {
-    transform: translate(0,0);
-}
+    transform: translate(0, 0);
+  }
 
 }
