@@ -9,6 +9,7 @@ body {
 }
 
 .ice-cream-cone {
+ min-height: 480px;
 
 }
 
@@ -50,24 +51,107 @@ body {
   background-color: transparent;
   border-style: solid;
   border-color: #990073;
-  color: #990073;
-  padding-left: 16em;
+  color: #c09;
 
 }
 
 h1 {
   color: #990073;
   font-size: 5rem;
-  padding-left: 2.9em;
-  padding-top: 2em;
+  padding-top: 5rem;
   transform: rotate(-10deg);
 
 }
 
 h2 {
-  color: #990073;
+  color: #c09;
   font-size: 1.5rem;
-  padding-left: 11em;
-  padding-top: .5em;
+  padding-left: 1.3rem;
   transform: rotate(-4deg);
+
+}
+
+.cone {
+  animation: drop 1s linear;
+
+}
+
+@keyframes drop {
+
+  from{
+    transform: translate(0,-500px);
+  }
+
+  to {
+    transform: translate(0,0);
+  }
+
+}
+
+.mint-chip {
+  animation: drop 2s linear;
+
+}
+
+@keyframes drop {
+
+from{
+  transform: translate(0,-500px);
+}
+
+to {
+  transform: translate(0,0);
+}
+
+}
+
+.chocolate-chip {
+  animation: drop 3s linear;
+
+}
+
+@keyframes drop {
+
+from{
+  transform: translate(0,-500px);
+}
+
+to {
+  transform: translate(0,0);
+}
+
+}
+
+.vanilla-fudge{
+  animation: drop 4s linear;
+
+}
+
+@keyframes drop {
+
+from{
+  transform: translate(0,-500px);
+}
+
+to {
+  transform: translate(0,0);
+}
+
+}
+
+.cherry{
+  animation: drop 4.5s linear;
+
+}
+
+@keyframes drop {
+
+from{
+  transform: translate(0,-500px);
+}
+
+to {
+  transform: translate(0,0);
+}
+
 }
