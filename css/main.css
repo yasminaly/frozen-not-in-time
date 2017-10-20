@@ -1,15 +1,15 @@
 html {
-  font-family: "Fredoka One";
+  font-family: "Fredoka One, sans-serif"
 
 }
 
 body {
-    background-image: repeating-linear-gradient(45deg, #b3fbff,#b3fbff 10px, #d4fdff 10px, #d4fdff 20px);
+  background-image: repeating-linear-gradient(-45deg, #b3fbff,#c9fcff 10px, #c9fcff 10px, #d4fdff 20px);
 
 }
 
 .ice-cream-cone {
- min-height: 480px;
+  min-height: 480px;
 
 }
 
@@ -78,8 +78,8 @@ h2 {
 
 @keyframes drop {
 
-  from{
-    transform: translate(0,-500px);
+  from {
+    transform: translate(0, -500px);
   }
 
   to {
@@ -95,12 +95,12 @@ h2 {
 
 @keyframes drop {
 
-from{
-  transform: translate(0,-500px);
+  from {
+    transform: translate(0, -500px);
 }
 
-to {
-  transform: translate(0,0);
+  to {
+    transform: translate(0,0);
 }
 
 }
@@ -112,12 +112,12 @@ to {
 
 @keyframes drop {
 
-from{
-  transform: translate(0,-500px);
+  from {
+    transform: translate(0, -500px);
 }
 
-to {
-  transform: translate(0,0);
+  to {
+    transform: translate(0,0);
 }
 
 }
@@ -129,29 +129,29 @@ to {
 
 @keyframes drop {
 
-from{
-  transform: translate(0,-500px);
+  from {
+    transform: translate(0, -500px);
 }
 
-to {
-  transform: translate(0,0);
+  to {
+    transform: translate(0,0);
 }
 
 }
 
-.cherry{
+.cherry {
   animation: drop 4.5s linear;
 
 }
 
 @keyframes drop {
 
-from{
-  transform: translate(0,-500px);
+  from {
+    transform: translate(0, -500px);
 }
 
-to {
-  transform: translate(0,0);
+  to {
+    transform: translate(0,0);
 }
 
 }
