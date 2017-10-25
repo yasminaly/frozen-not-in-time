@@ -28,7 +28,7 @@ body {
 
 .chocolate-chip {
   bottom: calc(50% - 50px);
-  right: calc(50% - 450px);
+  right: calc(50% - 460px);
   position: absolute;
 
 }
@@ -48,24 +48,31 @@ body {
 }
 
 .btn {
-  background-color: transparent;
+  background-color: #990073;
   border-style: solid;
   border-color: #990073;
   color: #c09;
+  padding: 10px;
+  position: absolute;
+  left: 170px;
+  top: 350px;
 
+}
+
+.btn:hover {
+  color: white;
 }
 
 h1 {
   color: #990073;
-  font-size: 5rem;
   padding-top: 5rem;
   transform: rotate(-10deg);
+  text-shadow: 1px;
 
 }
 
 h2 {
   color: #c09;
-  font-size: 1.5rem;
   padding-left: 1.3rem;
   transform: rotate(-4deg);
 
@@ -108,7 +115,7 @@ h2 {
 .chocolate-chip {
   animation: drop 3s linear;
 
-  }
+}
 
 @keyframes drop {
 
@@ -118,7 +125,7 @@ h2 {
 
   to {
     transform: translate(0, 0);
-}
+    }
 
 }
 
