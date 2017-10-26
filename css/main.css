@@ -13,45 +13,11 @@ body {
 
 }
 
-.cone {
-  bottom: calc(50% - 325px);
-  right: calc(50% - 450px);
-  position: absolute;
-}
-
-.mint-chip {
-  bottom: calc(50% - 180px);
-  right: calc(50% - 450px);
-  position: absolute;
-
-}
-
-.chocolate-chip {
-  bottom: calc(50% - 50px);
-  right: calc(50% - 460px);
-  position: absolute;
-
-}
-
-.vanilla-fudge {
-  bottom: calc(50% - -40px);
-  right: calc(50% - 450px);
-  position: absolute;
-
-}
-
-.cherry {
-  bottom: calc(50% - -150px);
-  right: calc(50% - 450px);
-  position: absolute;
-
-}
-
 h1 {
   color: #990073;
   padding-top: 5rem;
   transform: rotate(-10deg);
-  text-shadow: 0px 1px 5px white;
+  text-shadow: 0rem 1rem 5rem white;
 
 }
 
@@ -82,6 +48,9 @@ h2 {
 }
 
 .cone {
+  bottom: calc(50% - 325px);
+  right: calc(50% - 450px);
+  position: absolute;
   animation: drop 1s linear;
 
 }
@@ -99,6 +68,9 @@ h2 {
 }
 
 .mint-chip {
+  bottom: calc(50% - 180px);
+  right: calc(50% - 450px);
+  position: absolute;
   animation: drop 2s linear;
 
 }
@@ -116,6 +88,9 @@ h2 {
 }
 
 .chocolate-chip {
+  bottom: calc(50% - 50px);
+  right: calc(50% - 460px);
+  position: absolute;
   animation: drop 3s ease-in;
 
 }
@@ -128,11 +103,14 @@ h2 {
 
   to {
     transform: translate(0, 0);
-    }
+  }
 
 }
 
 .vanilla-fudge {
+  bottom: calc(50% - -40px);
+  right: calc(50% - 450px);
+  position: absolute;
   animation: drop 4s ease-in;
 
 }
@@ -150,6 +128,9 @@ h2 {
 }
 
 .cherry {
+  bottom: calc(50% - -150px);
+  right: calc(50% - 450px);
+  position: absolute;
   animation: drop 4.5s linear;
 
 }
