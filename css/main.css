@@ -58,8 +58,19 @@ h2 {
 
 @keyframes blur {
 
-  from {
+  0% {
     filter: blur(20px) opacity(0%);
+
+  }
+
+  60%{
+    filter: blur(10px) opacity(20%);
+
+  }
+
+  70%{
+    filter: blur(0px) opacity(90%);
+
   }
 
   to {
