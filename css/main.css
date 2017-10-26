@@ -18,7 +18,6 @@ h1 {
   padding-top: 5rem;
   transform: rotate(-10deg);
   text-shadow: 0rem 1rem 5rem white;
-
 }
 
 h2 {
@@ -39,6 +38,10 @@ h2 {
 
 }
 
+.btn-ghost{
+
+}
+
 .btn-ghost:hover {
   border: 3px;
   border-style: solid;
@@ -47,11 +50,29 @@ h2 {
 
 }
 
+.red{
+  animation: appear 1s linear;
+
+}
+
+@keyframes appear {
+
+  start {
+    filter: blur(20px) opacity(5%);
+  }
+
+  end {
+    filter: blur(0px) opacity(10%);
+  }
+
+}
+
+
 .cone {
   bottom: calc(50% - 325px);
   right: calc(50% - 450px);
   position: absolute;
-  animation: drop 1s linear;
+  animation: drop .5s ease-in;
 
 }
 
@@ -71,7 +92,7 @@ h2 {
   bottom: calc(50% - 180px);
   right: calc(50% - 450px);
   position: absolute;
-  animation: drop 2s linear;
+  animation: drop 1s ease-in;
 
 }
 
@@ -91,7 +112,7 @@ h2 {
   bottom: calc(50% - 50px);
   right: calc(50% - 460px);
   position: absolute;
-  animation: drop 3s ease-in;
+  animation: drop 2s ease-in;
 
 }
 
@@ -111,7 +132,7 @@ h2 {
   bottom: calc(50% - -40px);
   right: calc(50% - 450px);
   position: absolute;
-  animation: drop 4s ease-in;
+  animation: drop 2.5s ease-in;
 
 }
 
@@ -131,7 +152,7 @@ h2 {
   bottom: calc(50% - -150px);
   right: calc(50% - 450px);
   position: absolute;
-  animation: drop 4.5s linear;
+  animation: drop 3s ease-in;
 
 }
 
