@@ -59,7 +59,7 @@ h2 {
 @keyframes blur {
 
   from {
-    filter: blur(20px) opacity(10%);
+    filter: blur(20px) opacity(0%);
   }
 
   to {
