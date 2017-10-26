@@ -63,13 +63,13 @@ h2 {
 
   }
 
-  60%{
-    filter: blur(10px) opacity(20%);
+  50%{
+    filter: blur(10px) opacity(0%);
 
   }
 
-  70%{
-    filter: blur(0px) opacity(90%);
+  60%{
+    filter: blur(0px) opacity(0%);
 
   }
 
