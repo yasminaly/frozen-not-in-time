@@ -68,7 +68,7 @@ h2 {
 
   }
 
-  to {
+  100% {
     filter: blur(0px) opacity(100%);
   }
 }
