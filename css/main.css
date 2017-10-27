@@ -9,7 +9,7 @@ body {
 }
 
 .ice-cream-cone {
-  min-height: 480px;
+  max-height: 19em;
 
 }
 
@@ -22,8 +22,8 @@ h1 {
 
 h2 {
   color: #c09;
-  padding-left: 1.3rem;
   transform: rotate(-4deg);
+  left: 1rem;
 
 }
 
@@ -33,12 +33,7 @@ h2 {
   color: #c09;
   padding: 10px 20px;
   position: absolute;
-  left: 170px;
   top: 350px;
-
-}
-
-.btn-ghost{
 
 }
 
@@ -51,7 +46,7 @@ h2 {
 }
 
 .red {
-  text-shadow: 0rem 1rem 5rem white;
+  text-shadow: 0em 1em 5em white;
   animation: blur 4s linear;
 
 }
@@ -63,12 +58,12 @@ h2 {
 
   }
 
-  50%{
+  50% {
     filter: blur(10px) opacity(0%);
 
-  }
+}
 
-  60%{
+  60% {
     filter: blur(0px) opacity(0%);
 
   }
