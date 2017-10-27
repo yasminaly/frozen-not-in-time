@@ -15,7 +15,6 @@ body {
 
 h1 {
   color: #990073;
-  padding-top: 5rem;
   transform: rotate(-10deg);
 
 }
@@ -31,9 +30,13 @@ h2 {
   border-style: solid;
   border-color: #990073;
   color: #c09;
-  padding: 10px 20px;
   position: absolute;
   top: 350px;
+
+}
+
+.btn-ghost{
+
 
 }
 
@@ -68,7 +71,8 @@ h2 {
 
   }
 
-  100% {
+
+  90% {
     filter: blur(0px) opacity(100%);
   }
 }
