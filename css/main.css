@@ -37,7 +37,6 @@ h2 {
 
 .btn-ghost{
 
-
 }
 
 .btn-ghost:hover {
@@ -72,7 +71,7 @@ h2 {
   }
 
 
-  90% {
+  85% {
     filter: blur(0px) opacity(100%);
   }
 }
