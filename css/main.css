@@ -11,7 +11,6 @@ body {
 .ice-cream-cone {
   max-width: 19px;
 
-
 }
 
 h1 {
@@ -47,7 +46,7 @@ h2 {
 }
 
 .red {
-  text-shadow: 0em 1em 5em white;
+  text-shadow: 0px 1px 5px white;
   animation: blur 4s linear;
 
 }
@@ -62,7 +61,7 @@ h2 {
   50% {
     filter: blur(10px) opacity(0%);
 
-}
+  }
 
   60% {
     filter: blur(0px) opacity(0%);
